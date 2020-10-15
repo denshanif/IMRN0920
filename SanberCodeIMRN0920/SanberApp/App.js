@@ -1,24 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+//import LoginScreen from './Tugas/Tugas13/LoginScreen';
+import RegisterScreen from './Tugas/Tugas13/RegisterScreen';
 
-import YoutubeUI from "./Tugas/Tugas12/App";
-
-export default function App() {
-  return (
-    <YoutubeUI />
-    //<View style={styles.container}>
-    //  <Text>Open up App.js to start working on your app!</Text>
-    //  <StatusBar style="auto" />
-    //</View>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <RegisterScreen />
+    )
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
