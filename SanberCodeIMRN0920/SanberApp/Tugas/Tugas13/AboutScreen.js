@@ -113,7 +113,8 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: 'space-around',
         paddingHorizontal: 15,
-        paddingBottom: 30,
+        paddingBottom: 3
+        0,
     },
     box1: {
         backgroundColor: '#2b7ecb',
